@@ -6,14 +6,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  color: white;
   transition: background-color 1s;
 
 }
 .button {
-  font: bold 1.28em Arial;
+  font: bold 1.25rem Arial;
   text-decoration: none;
-  background-color: #EEEEEE;
+  background-color: #fbc304 ;
   color: #333333;
   padding: 2px 6px 2px 6px;
   border-top: 1px solid #CCCCCC;
@@ -24,12 +23,36 @@
   height: 2rem;
   border-radius: 5px;
 }
+.about {
+  text-align: center;
+}
+.Skills{
+  text-align: center;
+
+}
+.intro2{
+  border: 5px solid black ;
+  border-radius: 15px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+  transition: background-color 1s;
+}
 .button:hover{
   background-color: yellow;
 }
+.name{
+  text-align: center;
+  color: WHITE;
+}
+
 body{
-  margin: 0;
-  background-color: black;
+  margin: 5px;;
+  background-color: #413F42;
+  color: white;
 }
 html{
   margin: none;
