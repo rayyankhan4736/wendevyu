@@ -1,0 +1,48 @@
+  body{
+
+    margin: 0;
+    text-align: center;
+
+
+  }
+.top{
+background-color: #FCFFE7;
+height: 400px;
+position: relative;
+
+}
+.xlogo{
+  width: 12em;
+}
+.middle{
+background-color: #DAB88B;
+height: 400px;
+
+}
+.bottom{
+background-color: #FCFFE7;
+height: 100px;
+
+}
+
+
+h1{
+  color: #DEA057;
+  margin-top: 0;
+  padding-top: 15px;
+}
+
+
+h3{
+  color: #66bfbf;
+}
+.intro{
+position: relative;
+right: 100px;
+top: 10px;
+}
+.xlogos{
+  position: relative;
+left: 100px;
+bottom:170px;
+  }
