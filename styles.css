@@ -8,7 +8,7 @@
 .top{
 background-color: #FCFFE7;
 height: 400px;
-position: relative;
+
 
 }
 .xlogo{
@@ -36,13 +36,3 @@ h1{
 h3{
   color: #66bfbf;
 }
-.intro{
-position: relative;
-right: 100px;
-top: 10px;
-}
-.xlogos{
-  position: relative;
-left: 100px;
-bottom:170px;
-  }
