@@ -7,7 +7,8 @@
   }
 .top{
 background-color: #FCFFE7;
-height: 400px;
+height: 25rem;
+position: static;
 
 
 }
@@ -17,11 +18,13 @@ height: 400px;
 .middle{
 background-color: #DAB88B;
 height: 400px;
+position: relative;
 
 }
 .bottom{
 background-color: #FCFFE7;
 height: 100px;
+position: relative;
 
 }
 
@@ -29,10 +32,12 @@ height: 100px;
 h1{
   color: #DEA057;
   margin-top: 0;
+  font-size: 3rem;
   padding-top: 15px;
 }
 
 
 h3{
   color: #66bfbf;
+  font-size: 2em;
 }
