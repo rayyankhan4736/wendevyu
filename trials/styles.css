@@ -35,14 +35,22 @@
   border-radius: 15px;
   background-color: grey;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 10px;
   flex-direction: column;
-  transition: background-color 1s;
+
+}
+#abimg{
+  width: 4rem;
+}
+#skimg{
+  width: 8rem;
 }
 .button:hover{
   background-color: yellow;
+}
+#profpic{
+  width: 15rem;
+  padding-bottom: 15px;
 }
 .name{
   text-align: center;
@@ -52,7 +60,11 @@
 body{
   margin: 5px;;
   background-color: #413F42;
-  color: white;
+  color:black;
+  font-family: 'Ubuntu', sans-serif;
+}
+p{
+  color: #fff;
 }
 html{
   margin: none;
