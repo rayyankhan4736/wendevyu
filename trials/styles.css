@@ -23,20 +23,24 @@
   height: 2rem;
   border-radius: 5px;
 }
-.about {
-  text-align: center;
-}
-.Skills{
-  text-align: center;
 
-}
 .intro2{
   border: 5px solid black ;
   border-radius: 15px;
   background-color: grey;
   display: flex;
   padding: 10px;
+  align-items: center;
   flex-direction: column;
+
+}
+.about {
+  width: 40%;
+  text-align: center;
+}
+.Skills{
+  width: 40%;
+  text-align: center;
 
 }
 #abimg{
