@@ -7,7 +7,27 @@
   align-items: center;
   padding: 10px;
   transition: background-color 1s;
+}
+.intro2{
+  border: 5px solid black ;
+  border-radius: 15px;
+  background-color: grey;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+.touch{
+  color:  #fbc304;
+  text-align: center;
 
+}
+.forms{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .button {
   font: bold 1.25rem Arial;
@@ -23,20 +43,31 @@
   height: 2rem;
   border-radius: 5px;
 }
-
-.intro2{
-  border: 5px solid black ;
-  border-radius: 15px;
-  background-color: grey;
-  display: flex;
-  padding: 10px;
-  align-items: center;
-  flex-direction: column;
-
-}
 .about {
   width: 40%;
   text-align: center;
+}
+#sub-button {
+    transition-duration: 0.4s;
+    border-radius: 6px;
+    color: #fbc304;
+      border-color:#fbc304 ;
+    background-color: black;
+
+    width: 150px;
+    height: 30px;
+}
+.formin{
+  border-radius: 6px;
+  border-color: black;
+
+}
+#sub-button:hover {
+    transition-duration: 0.4s;
+    border-radius: 3px;
+    color: black;
+    border-color: black;
+    background-color: #fbc304;
 }
 .Skills{
   width: 40%;
@@ -55,6 +86,9 @@
 #profpic{
   width: 15rem;
   padding-bottom: 15px;
+}
+#cright{
+  text-align: center;
 }
 .name{
   text-align: center;
