@@ -15,8 +15,44 @@
   display: flex;
   padding-top: 10px;
   padding-bottom: 10px;
-  align-items: center;
-  flex-direction: column;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+@media screen and (max-width:750px)
+{
+  .intro2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+  }
+  .about {
+    width: 640px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    padding-top: 100px;
+
+  }
+  .Skills{
+    width: 640px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 60px;
+    position: relative;
+  }
+  .edu{
+    width: 640px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+  }
 }
 .touch{
   color:  #fbc304;
@@ -44,9 +80,25 @@
   border-radius: 5px;
 }
 .about {
-  width: 40%;
+  width: 30%;
   text-align: center;
+
+
+
 }
+.Skills{
+  width: 30%;
+  text-align: center;
+
+
+}
+.edu{
+  width: 30%;
+  text-align: center;
+
+
+}
+
 #sub-button {
     transition-duration: 0.4s;
     border-radius: 6px;
@@ -69,15 +121,14 @@
     border-color: black;
     background-color: #fbc304;
 }
-.Skills{
-  width: 40%;
-  text-align: center;
 
-}
 #abimg{
-  width: 4rem;
+  width: 6rem;
 }
 #skimg{
+  width: 6rem;
+}
+#edimg{
   width: 8rem;
 }
 .button:hover{
