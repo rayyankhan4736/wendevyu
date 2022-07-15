@@ -9,19 +9,19 @@
   </head>
   <body>
     <div class="intro">
-      <img src="Capture.PNG" alt="">
+      <img class="logoimg" src="Capture.PNG" alt="">
       <a class="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact</a>
     </div>
     <div class="name">
       <h1>I'm Rayyan</h1>
-      <h3>A Web Designer.</h3>
+      <h3 id="h3line">A Web Designer.</h3>
       <img id="profpic" src="filename.jpg" alt="">
     </div>
    <div class="intro2">
      <div class="about">
        <img id="abimg" src="about.png" alt="">
        <h2>About me</h2>
-       <p>I'm from Hyderabad, and currently a student at Hashinsert in Web Development bootcamp.</p>
+       <p>I'm from Hyderabad,and currently a student at Hashinsert in Web Development bootcamp.</p>
 
      </div>
      <div class="Skills">
@@ -39,22 +39,20 @@
      <h2>Let's Get In Touch</h2>
      <p>I am available to work on your projects and bring your ideas to life. I am just a click away.</p>
    </div>
-   <div class="forms">
-    <div class="">
-      <input class="formin" type="text" name="name" placeholder="Your Name">
-      <input class="formin" type="email" name="email" placeholder="Your Email Address"><br>
-    </div>
-    <br>
-    <div class="">
-      <textarea class="formin" name="message" rows="14" cols="45" placeholder="Your Message"></textarea>
-    </div>
-    <div class="">
-       <br><input id="sub-button" type="submit" name="" value="Submit">
-    </div>
-
-
-
+   <div class="formcontainer">
+     <form class="my-form" action="index.html" method="post">
+     <div class="namenmail">
+       <input class="formstyling" type="text" name="name" placeholder="Name">
+       <input class="formstyling" type="email" name="mail" placeholder="Email"><br>
+       <textarea  class="formstyling" name="name" rows="10" cols="50" placeholder="Message"></textarea><br>
+       <input class="sub-button" type="submit" name="sunmit" value="submit">
+     </div>
+     </form>
    </div>
+
+
+
+
 <footer><p id="cright">© 2022 Khan. All rights reserved.</p></footer>
 
   </body>
